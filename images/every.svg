@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="374" height="374" viewBox="0 0 374 374">
+  <defs>
+    <!-- Центр (187,187), радиус 150 -->
+    <path id="circlePath" d="M187 187 m -150,0 a150,150 0 1,1 300,0 a150,150 0 1,1 -300,0"/>
+  </defs>
+
+  <!-- Текст по кругу (без видимой рамки) -->
+  <text fill="#81620d" font-size="20" font-family="Arial, Helvetica, sans-serif">
+    <!-- Ровно по длине окружности: ~2π*150 ≈ 942.48 → даём 943 -->
+    <textPath href="#circlePath" startOffset="0" textLength="943" lengthAdjust="spacingAndGlyphs">
+ меню • барная карта • банкетное меню • меню • барная карта • банкетное меню •
+    </textPath>
+  </text>
+</svg>
