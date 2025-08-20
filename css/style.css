@@ -8,7 +8,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font-family: "Poppins";
+  font-family: "Unbounded", cursive;
 }
 
 *,
@@ -13050,7 +13050,7 @@ overflow: hidden;
 }
 
 .chef .karaoke-title, .chef .karaoke-text, .chef p, .chef .karaoke-info, p, .event-desc {
-	font-family: 'Poppins';
+	font-family: "Unbounded", cursive;
 }
 
    .position-relative {
