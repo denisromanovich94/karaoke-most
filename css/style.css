@@ -13007,7 +13007,11 @@ position: absolute;
 }
 
 @media (max-width: 992px) {
-
+.container-btn-block {
+  flex-direction: column;
+  gap: 0 !important;
+  padding-top: 30px !important;
+}
 .action {
     margin-bottom: 50px;
 }
@@ -13330,12 +13334,31 @@ grid-template-columns: 1fr;
 }
 
 
+.call-form {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 40px;
+  position: relative;
+  z-index: 10;
+}
+.call-form form {
+  position: relative;
+  z-index: 11;
+}
 
+.call-bottom {
+  flex-direction: column;
+  gap: 30px;
+}
+.call-item {
+  max-width: 100%;
+}
 
-
-
-
-
+.call-form .oval {
+  left: auto;
+  right: 0;
+  transform: translate(50%, -50%)
+}
 
 
 
